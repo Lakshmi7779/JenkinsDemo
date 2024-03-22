@@ -1,0 +1,3 @@
+runner\RunnerDemo.class
+stepDefinitions\HotelAppLoginTest.class
+stepDefinitions\HotelAppSearch.class
