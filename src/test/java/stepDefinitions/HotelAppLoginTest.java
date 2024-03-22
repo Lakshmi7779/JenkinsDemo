@@ -15,7 +15,7 @@ import io.cucumber.java.en.When;
 public class HotelAppLoginTest {
 	WebDriver driver;
 	String ExpectedURL = "https://adactinhotelapp.com/";
-	System.out.println("Hello world");
+	
 	@After
 	public void t2() {
 		driver.quit();
@@ -29,6 +29,7 @@ public class HotelAppLoginTest {
 		String url=driver.getCurrentUrl();
 		System.out.println(url);
 		Assert.assertEquals(url,ExpectedURL);
+		System.out.println("Hello world");
 	}
 
 	@When("I enter username as {string}")
